@@ -8,6 +8,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from 'src/app/material/material.module';
 
 import { LoginComponent } from './login.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
 	declarations: [LoginComponent],
@@ -17,6 +18,7 @@ import { LoginComponent } from './login.component';
 		ReactiveFormsModule,
 		FlexLayoutModule,
 		MaterialModule,
+		HttpClientModule
 	],
 	exports: [LoginComponent],
 })

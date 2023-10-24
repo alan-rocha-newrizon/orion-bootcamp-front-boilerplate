@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 
 import { LoginModule } from './pages/login/login.module';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
 	declarations: [AppComponent],
@@ -17,6 +18,8 @@ import { LoginModule } from './pages/login/login.module';
 		BrowserAnimationsModule,
 		MatCardModule,
 		LoginModule,
+		FormsModule,
+		ReactiveFormsModule
 	],
 	providers: [],
 	bootstrap: [AppComponent],
